@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/paperLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/korisnikLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ime" />
+
+        <TextView
+            android:id="@+id/prezime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prezime" />
+
+        <TextView
+            android:id="@+id/korisnickoime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="korisnickoime" />
+
+        <TextView
+            android:id="@+id/lozinka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lozinka" />
+
+        <TextView
+            android:id="@+id/oib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="oib" />
+
+        <TextView
+            android:id="@+id/adresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adresa" />
+
+        <TextView
+            android:id="@+id/uloga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uloga" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/deleteKorisnikBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.5"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorRed"
+        android:text="Briši"
+        android:textColor="#FFFFFF"
+        android:visibility="visible" />
+
+</LinearLayout>
